@@ -1,0 +1,17 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "rules": {
+    //"import/extensions": false,
+    //"import/no-unresolved": false,
+    "import/no-extraneous-dependencies": ["error", {"packageDir": "./"}],
+    "indent": ["error", 4],
+    "react/jsx-indent": ["error", 4],
+    "react/jsx-indent-props": ["error", 4],
+    "react/react-in-jsx-scope": false
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  }
+}
